@@ -8,12 +8,14 @@ const nome = prompt ("Qual è il tuo nome?");
 const cognome = prompt ("Qual è il tuo cognome");
 const colorePreferito = prompt ("Qual è il tuo colore preferito?")
 
-console.log(nome + cognome + colorePreferito + "21");
+const password = nome + cognome + colorePreferito + "21";
 
-// document.getElementById("my_password").innerHTML = nome + cognome + colorePreferito + "21";
+console.log(password + "21");
+
+// document.getElementById("my_password").innerHTML = password;
 
 
-document.getElementById("my_password").innerHTML = ` ${nome}${cognome}${colorePreferito}21`;
+document.getElementById("my_password").innerHTML = ` ${password}`;
 
 
 
